@@ -3,7 +3,7 @@
     目前项目主要针对 excel、word等文件进行操作，支持导出字段的局部样式、全局样式、条件样式等。后续会不断扩展。项目当前处于开发测试阶段，可能会存在一些bug，欢迎小伙伴们
     发现问题并留言指出，我们的开发攻城狮，会在第一时间内进行修复。
 #### 项目地址
-    https://hub.gitlab.com/aidustry/aidustry-boot-poi-starter.git
+    https://gitee.com/zhang-xingshuai/fast-poi.git
 
 #### 核心功能
 * [excel](#一、Excel模块)
