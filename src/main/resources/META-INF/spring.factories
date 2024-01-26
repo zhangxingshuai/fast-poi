@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.fast.poi.PoiAutoConfig,\
+  com.fast.poi.excel.service.impl.ExcelServiceImpl,\
+  com.fast.poi.word.service.impl.WordServiceImpl

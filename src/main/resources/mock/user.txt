@@ -1,0 +1,30 @@
+[
+    {
+        "name": "张三",
+        "gender": "男",
+        "age": 18,
+        "city": "北京",
+        "political": 1,
+    },
+    {
+        "name": "李四",
+        "gender": "男",
+        "age": 19,
+        "city": "上海",
+        "political": 2,
+    },
+    {
+        "name": "王五",
+        "gender": "女",
+        "age": 22,
+        "city": "哈尔滨",
+        "political": 3,
+    },
+    {
+        "name": "赵六",
+        "gender": "女",
+        "age": 27,
+        "city": "烟台",
+        "political": 4,
+    },
+]

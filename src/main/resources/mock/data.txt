@@ -1,0 +1,570 @@
+[
+	{
+		"index" : 1,
+		"categoryName" : "测试分类1",
+		"itemName" : "测试分类1保密工作情况",
+		"content" : "党委传达学习保密工作重要决策部署，将保密工作纳入党委议事日程\t\t\t\t\t\n",
+		"standard" : "★提供党委会议纪要或其他文件资料复印件 \n",
+		"score" : 2.0
+	},
+	{
+		"index" : 1,
+		"categoryName" : "测试分类1",
+		"itemName" : "测试分类1保密工作情况",
+		"content" : "主要负责同志重视保密工作，对保密工作有批示和要求\t\t\t\t\t\n",
+		"standard" : "★提供专题汇报材料、批示复印件或相关依据材料 \n",
+		"score" : 2.0
+	},
+	{
+		"index" : 1,
+		"categoryName" : "测试分类1",
+		"itemName" : "测试分类1保密工作情况",
+		"content" : "分管保密工作的负责同志对保密工作作出部署，组织实施\t\t\t\t\t\n",
+		"standard" : "★提供具体组织工作的批示复印件或相关依据材料 \n",
+		"score" : 1.0
+	},
+	{
+		"index" : 1,
+		"categoryName" : "测试分类1",
+		"itemName" : "测试分类1保密工作情况",
+		"content" : "分管业务的负责同志部署分管工作范围内的保密工作，进行督促和检查，为保密工作提供支持和保障\t\t\t\t\t\n",
+		"standard" : "★提供具体指导、检查及保障的相关依据材料\n",
+		"score" : 2.0
+	},
+	{
+		"index" : 1,
+		"categoryName" : "测试分类1",
+		"itemName" : "落实保密工作责任制情况",
+		"content" : "领导人员及相关员工签订了保密责任书\t\t\t\t\t\n",
+		"standard" : "★提供一份2022年签订的保密责任书复印件 \n",
+		"score" : 1.0
+	},
+	{
+		"index" : 1,
+		"categoryName" : "测试分类1",
+		"itemName" : "落实保密工作责任制情况",
+		"content" : "领导人员及相关员工签订了保密承诺书\t\t\t\t\t\n",
+		"standard" : "★提供一份2022年签订的保密承诺书复印件\n",
+		"score" : 1.0
+	},
+	{
+		"index" : 1,
+		"categoryName" : "测试分类1",
+		"itemName" : "落实保密工作责任制情况",
+		"content" : "借调、劳务外包、项目开发、工勤服务人员等临时性工作人员签订保密承诺书\t\t\t\t\t\n",
+		"standard" : "★提供一份2022年签订的保密承诺书复印件\n",
+		"score" : 1.0
+	},
+	{
+		"index" : 1,
+		"categoryName" : "测试分类1",
+		"itemName" : "保密工作纳入考核情况",
+		"content" : "将保密违法违规案件或失泄密事件纳入部门、单位和个人的年度考核评价体系\t\t\t\t\t\n",
+		"standard" : "★提供将保密违法违规案件或失泄密事件纳入考核体系以及考核结果等相关材料\n",
+		"score" : 2.0
+	},
+	{
+		"index" : 2,
+		"categoryName" : "测试分类2",
+		"itemName" : "保密委员会履行职责情况",
+		"content" : "明确保密委员会工作制度或工作规则等\t\t\t\t\t\n",
+		"standard" : "★提供保密委工作制度、工作规则等文件的复印件\n",
+		"score" : 1.0
+	},
+	{
+		"index" : 2,
+		"categoryName" : "测试分类2",
+		"itemName" : "保密委员会履行职责情况",
+		"content" : "明确委员职责，推动委员积极发挥作用\t\t\t\t\t\n",
+		"standard" : "★提供委员职责清单和履职情况总结\n",
+		"score" : 2.0
+	},
+	{
+		"index" : 2,
+		"categoryName" : "测试分类2",
+		"itemName" : "保密委员会履行职责情况",
+		"content" : "及时调整保密委员会、国家安全人民防线建设小组组成人员\t\t\t\t\t\n",
+		"standard" : "★提供及时调整保密委员会、国家安全人民防线建设小组组成人员的通知复印件\n",
+		"score" : 1.0
+	},
+	{
+		"index" : 2,
+		"categoryName" : "测试分类2",
+		"itemName" : "保密委员会履行职责情况",
+		"content" : "本年度召开过保密委员会会议\t\t\t\t\t\n",
+		"standard" : "★提供保密委员会会议纪要或会议通知等文件的复印件 \n",
+		"score" : 2.0
+	},
+	{
+		"index" : 2,
+		"categoryName" : "测试分类2",
+		"itemName" : "保密委员会履行职责情况",
+		"content" : "制定印发本年度的保密工作要点或工作计划等\t\t\t\t\t\n",
+		"standard" : "★提供正式印发的保密工作要点、工作计划等文件的复印件 \n",
+		"score" : 2.0
+	},
+	{
+		"index" : 2,
+		"categoryName" : "测试分类2",
+		"itemName" : "保密机构建设情况",
+		"content" : "保密办职能健全、人员明确\t\t\t\t\t\n",
+		"standard" : "★提供保密办职责清单\n",
+		"score" : 1.0
+	},
+	{
+		"index" : 2,
+		"categoryName" : "测试分类2",
+		"itemName" : "保密机构建设情况",
+		"content" : "填报保密工作机构并及时进行数据更新\t\t\t\t\t\n",
+		"standard" : "★2022年5月前在测试分类4系统中完成本单位保密工作机构填报，根据岗位变动情况及时进行数据更新\n",
+		"score" : 1.0
+	},
+	{
+		"index" : 2,
+		"categoryName" : "测试分类2",
+		"itemName" : "保密制度建设情况",
+		"content" : "制度体系健全，印发非集团公司一贯到底的制度\t\t\t\t\t\n",
+		"standard" : "★提供自行建立或参照执行的保密制度清单 \n",
+		"score" : 1.0
+	},
+	{
+		"index" : 2,
+		"categoryName" : "测试分类2",
+		"itemName" : "保密干部队伍建设情况",
+		"content" : "配备专职或兼职保密干部\t\t\t\t\t\n",
+		"standard" : "★提供本部保密干部姓名、职务、联系方式\n",
+		"score" : 1.0
+	},
+	{
+		"index" : 2,
+		"categoryName" : "测试分类2",
+		"itemName" : "保密工作机构设施设备配备情况",
+		"content" : "配备保密检查、清除和移动信号干扰等必要的保密专用设施设备\t\t\t\t\t\n",
+		"standard" : "★提供配备设施设备的相关材料 \n",
+		"score" : 1.0
+	},
+	{
+		"index" : 3,
+		"categoryName" : "测试分类3",
+		"itemName" : "明确定密责任人和定密程序",
+		"content" : "明确定密责任人和定密程序并在日常工作中执行\t\t\t\t\t\n",
+		"standard" : "★提供相关制度规定和审批单复印件 \n",
+		"score" : 1.0
+	},
+	{
+		"index" : 3,
+		"categoryName" : "测试分类3",
+		"itemName" : "准确标注密级和保密期限",
+		"content" : "纸质、电子文件和其他涉密载体等准确标注密级和保密期限\t\t\t\t\t\n",
+		"standard" : "★提供2022年自行定密的国家秘密和工作秘密文件首页复印件 \n",
+		"score" : 2.0
+	},
+	{
+		"index" : 3,
+		"categoryName" : "测试分类3",
+		"itemName" : "保密要害部门部位管理情况",
+		"content" : "准确确定本单位保密要害部门部位，明确管理要求，配备相应防范措施\t\t\t\t\t\n",
+		"standard" : "★提供确定保密要害部门部位的通知或其他文件 \n",
+		"score" : 1.0
+	},
+	{
+		"index" : 3,
+		"categoryName" : "测试分类3",
+		"itemName" : "涉密文件资料保管、传达、销毁等是否符合保密要求",
+		"content" : "涉密文件资料严格履行签收、登记、审批等手续\t\t\t\t\t\n",
+		"standard" : "★提供2022年接收和发送的涉密文件资料数量说明和涉密文件资料登记表内容页首页复印件 \n",
+		"score" : 2.0
+	},
+	{
+		"index" : 3,
+		"categoryName" : "测试分类3",
+		"itemName" : "涉密文件资料保管、传达、销毁等是否符合保密要求",
+		"content" : "涉密文件资料按要求存放和保管，涉密文件资料传达符合保密要求\t\t\t\t\t\n",
+		"standard" : "★提供存放、保管、传达情况说明和涉密文件办理单复印件\n",
+		"score" : 1.0
+	},
+	{
+		"index" : 3,
+		"categoryName" : "测试分类3",
+		"itemName" : "涉密文件资料保管、传达、销毁等是否符合保密要求",
+		"content" : "涉密文件资料借阅、复制符合保密要求\t\t\t\t\t\n",
+		"standard" : "★提供借阅、复制审批单\n",
+		"score" : 1.0
+	},
+	{
+		"index" : 3,
+		"categoryName" : "测试分类3",
+		"itemName" : "涉密文件资料保管、传达、销毁等是否符合保密要求",
+		"content" : "通过机要渠道传递涉密文件，履行登记手续；文件交换工作配备有专用箱包和车辆\t\t\t\t\t\n",
+		"standard" : "★提供涉密文件资料交寄存根复印件和情况说明\n",
+		"score" : 1.0
+	},
+	{
+		"index" : 3,
+		"categoryName" : "测试分类3",
+		"itemName" : "涉密文件资料保管、传达、销毁等是否符合保密要求",
+		"content" : "涉密文件资料经过审批并集中统一销毁\t\t\t\t\t\n",
+		"standard" : "★提供涉密文件销毁审批单以及销毁中心反馈的销毁清单复印件 \n",
+		"score" : 1.0
+	},
+	{
+		"index" : 3,
+		"categoryName" : "测试分类3",
+		"itemName" : "加强会议、场所保密管理",
+		"content" : "加强对党的二十大等重大会议活动重要工作的保密管理\t\t\t\t\t\n",
+		"standard" : "★提供落实集团公司工作方案的通知、会议材和对重要会议重大活动安全保密工作部署材料等 \n",
+		"score" : 3.0
+	},
+	{
+		"index" : 3,
+		"categoryName" : "测试分类3",
+		"itemName" : "加强会议、场所保密管理",
+		"content" : "加强涉密场所智能电话机（配有麦克风、摄像头等音视频输入装置以及具有无线收发功能等）保密管理\t\t\t\t\t\n",
+		"standard" : "★提供有关通知或其他文件资料复印件\n",
+		"score" : 2.0
+	},
+	{
+		"index" : 3,
+		"categoryName" : "测试分类3",
+		"itemName" : "建立信息公开、宣传及对外提供信息资料保密审查制度",
+		"content" : "建立信息公开、信息披露等保密审查制度，并按制度严格落实\t\t\t\t\t\n",
+		"standard" : "★提供有关制度、审批单复印件 \n",
+		"score" : 2.0
+	},
+	{
+		"index" : 3,
+		"categoryName" : "测试分类3",
+		"itemName" : "建立信息公开、宣传及对外提供信息资料保密审查制度",
+		"content" : "建立新闻宣传报道及对外提供信息资料保密审查制度，并按制度严格落实\t\t\t\t\t\n",
+		"standard" : "★提供有关制度、审批单复印件\n",
+		"score" : 2.0
+	},
+	{
+		"index" : 3,
+		"categoryName" : "测试分类3",
+		"itemName" : "工作秘密保密管理情况",
+		"content" : "对工作秘密管理提出要求\t\t\t\t\t\n",
+		"standard" : "★提供有关通知或其他文件资料复印件\n",
+		"score" : 2.0
+	},
+	{
+		"index" : 3,
+		"categoryName" : "测试分类3",
+		"itemName" : "工作秘密保密管理情况",
+		"content" : "纸质、电子文件准确标注工作秘密事项密级标识\t\t\t\t\t\n",
+		"standard" : "★提供自行定密的文件首页复印件 \n",
+		"score" : 2.0
+	},
+	{
+		"index" : 3,
+		"categoryName" : "测试分类3",
+		"itemName" : "加强疫情期间文件信息资料保密管理情况",
+		"content" : "加强疫情防控期间办公涉及的涉密或敏感文件信息资料保密管理\t\t\t\t\t\n",
+		"standard" : "★提供印发的通知或会议部署材料或其他材料等复印件 \n",
+		"score" : 2.0
+	},
+	{
+		"index" : 4,
+		"categoryName" : "测试分类4",
+		"itemName" : "明确涉密岗位和涉密人员",
+		"content" : "明确涉密岗位\t\t\t\t\t\n",
+		"standard" : "★提供2022年6月后印发的涉密岗位汇总表及确定涉密岗位时的依据材料\n",
+		"score" : 2.0
+	},
+	{
+		"index" : 4,
+		"categoryName" : "测试分类4",
+		"itemName" : "明确涉密岗位和涉密人员",
+		"content" : "明确涉密人员\t\t\t\t\t\n",
+		"standard" : "★提供本部2022年6月后确定的涉密人员汇总表 \n",
+		"score" : 2.0
+	},
+	{
+		"index" : 4,
+		"categoryName" : "测试分类4",
+		"itemName" : "明确涉密岗位和涉密人员",
+		"content" : "按时向集团公司备案涉密人员情况\t\t\t\t\t\n",
+		"standard" : "★提供2023年1月报备的涉密岗位及人员备案表\n",
+		"score" : 3.0
+	},
+	{
+		"index" : 4,
+		"categoryName" : "测试分类4",
+		"itemName" : "严格涉密人员岗前管理",
+		"content" : "涉密人员上岗前开展审查\t\t\t\t\t\n",
+		"standard" : "★提供1份2022年涉密人员上岗前审查表的复印件 \n",
+		"score" : 1.0
+	},
+	{
+		"index" : 4,
+		"categoryName" : "测试分类4",
+		"itemName" : "严格涉密人员岗前管理",
+		"content" : "涉密人员上岗前签订保密承诺书\t\t\t\t\t\n",
+		"standard" : "★提供1份2022年涉密人员签订的保密承诺书的复印件 \n",
+		"score" : 1.0
+	},
+	{
+		"index" : 4,
+		"categoryName" : "测试分类4",
+		"itemName" : "加强涉密人员在岗管理",
+		"content" : "对涉密人员进行出入境备案\t\t\t\t\t\n",
+		"standard" : "★提供涉密人员在出入境机关备案反馈单或情况说明 \n",
+		"score" : 1.0
+	},
+	{
+		"index" : 4,
+		"categoryName" : "测试分类4",
+		"itemName" : "加强涉密人员在岗管理",
+		"content" : "组织开展涉密人员保密教育培训\t\t\t\t\t\n",
+		"standard" : "★提供工作通知、培训材料、情况报告、参会人员汇总表或保密教育培训登记表等材料\n",
+		"score" : 1.0
+	},
+	{
+		"index" : 4,
+		"categoryName" : "测试分类4",
+		"itemName" : "加强涉密人员在岗管理",
+		"content" : "对涉密人员出国（境）进行审批\t\t\t\t\t\n",
+		"standard" : "★提供出国（境）审批表复印件\n",
+		"score" : 1.0
+	},
+	{
+		"index" : 4,
+		"categoryName" : "测试分类4",
+		"itemName" : "加强涉密人员在岗管理",
+		"content" : "涉密人员出国（境）前开展行前教育\t\t\t\t\t\n",
+		"standard" : "★提供出国（境）行前保密及政治安全教育情况表复印件\n",
+		"score" : 1.0
+	},
+	{
+		"index" : 4,
+		"categoryName" : "测试分类4",
+		"itemName" : "加强涉密人员在岗管理",
+		"content" : "建立涉密人员出国（境）回访制度\t\t\t\t\t\n",
+		"standard" : "★提供出国（境）报告记录表 \n",
+		"score" : 1.0
+	},
+	{
+		"index" : 4,
+		"categoryName" : "测试分类4",
+		"itemName" : "开展涉密人员离职离岗管理",
+		"content" : "建立涉密人员离职离岗保密审查程序\t\t\t\t\t\n",
+		"standard" : "★提供涉密人员离职离岗保密审批表\n",
+		"score" : 1.0
+	},
+	{
+		"index" : 4,
+		"categoryName" : "测试分类4",
+		"itemName" : "开展涉密人员离职离岗管理",
+		"content" : "对涉密人员开展脱密期管理\t\t\t\t\t\n",
+		"standard" : "★提供涉密人员离职离岗保密承诺书和委托管理书\n",
+		"score" : 1.0
+	},
+	{
+		"index" : 5,
+		"categoryName" : "测试分类5",
+		"itemName" : "注重涉密计算机管理",
+		"content" : "按照自主可控要求，在新增涉密计算机时采购涉密专用计算机\t\t\t\t\t\n",
+		"standard" : "★说明无新增或提供采购合同复印件 \n",
+		"score" : 1.0
+	},
+	{
+		"index" : 5,
+		"categoryName" : "测试分类5",
+		"itemName" : "注重涉密计算机管理",
+		"content" : "完成涉密领域国产化替代\t\t\t\t\t\n",
+		"standard" : "★提供国产化替代情况说明\n",
+		"score" : 3.0
+	},
+	{
+		"index" : 5,
+		"categoryName" : "测试分类5",
+		"itemName" : "注重涉密计算机管理",
+		"content" : "涉密计算机配备满足工作需要\t\t\t\t\t\n",
+		"standard" : "★提供涉密计算机配备数量情况\n",
+		"score" : 1.0
+	},
+	{
+		"index" : 5,
+		"categoryName" : "测试分类5",
+		"itemName" : "注重涉密办公自动化设备管理",
+		"content" : "建立涉密计算机、打印机、复印机、移动存储介质台账，明确责任人\t\t\t\t\t\n",
+		"standard" : "★提供相关台账及负责部门、具体负责人姓名\n",
+		"score" : 2.0
+	},
+	{
+		"index" : 5,
+		"categoryName" : "测试分类5",
+		"itemName" : "注重涉密办公自动化设备管理",
+		"content" : "在计算机、打印机、复印机、移动存储介质等显要位置张贴了密级标识\t\t\t\t\t\n",
+		"standard" : "★提供标识样式\n",
+		"score" : 1.0
+	},
+	{
+		"index" : 5,
+		"categoryName" : "测试分类5",
+		"itemName" : "注重加强微信保密管理",
+		"content" : "开展微信泄密专项整顿行动\t\t\t\t\t\n",
+		"standard" : "★提供相关工作制度或工作总结等\n",
+		"score" : 2.0
+	},
+	{
+		"index" : 5,
+		"categoryName" : "测试分类5",
+		"itemName" : "注重加强微信保密管理",
+		"content" : "明确微信（尤其是微信群、图文识别等小程序）使用保密管理要求",
+		"standard" : "★提供印发的微信使用保密管理要求\n",
+		"score" : 2.0
+	},
+	{
+		"index" : 6,
+		"categoryName" : "测试分类6",
+		"itemName" : "组织开展保密培训",
+		"content" : "对本单位领导干部、全体员工开展保密教育培训\t\t\t\t\t\n",
+		"standard" : "★提供当年开展培训的通知、会议纪要或简报等材料 \n",
+		"score" : 1.0
+	},
+	{
+		"index" : 6,
+		"categoryName" : "测试分类6",
+		"itemName" : "组织开展保密培训",
+		"content" : "通过失泄密案例开展警示教育\t\t\t\t\t\n",
+		"standard" : "★提供相关资料或自查情况报告\n",
+		"score" : 2.0
+	},
+	{
+		"index" : 6,
+		"categoryName" : "测试分类6",
+		"itemName" : "采用创新宣传教育方式提高宣传教育质量",
+		"content" : "编制工作手册、宣传微课、视频资料、建设宣教平台、开展知识竞赛\t\t\t\t\t\n",
+		"standard" : "★提供相关资料\n",
+		"score" : 2.0
+	},
+	{
+		"index" : 6,
+		"categoryName" : "测试分类6",
+		"itemName" : "组织保密检查检测",
+		"content" : "组织开展本部现场保密检查\t\t\t\t\t\n",
+		"standard" : "★提供保密检查工作记录\n",
+		"score" : 2.0
+	},
+	{
+		"index" : 6,
+		"categoryName" : "测试分类6",
+		"itemName" : "组织保密检查检测",
+		"content" : "利用技术检查工具定期对本部互联网计算机、信息系统等开展保密检查\t\t\t\t\t\n",
+		"standard" : "★提供网络检查工具的保密检查日志等 \n",
+		"score" : 2.0
+	},
+	{
+		"index" : 6,
+		"categoryName" : "测试分类6",
+		"itemName" : "组织保密检查检测",
+		"content" : "开展内外网电子邮箱保密检查\t\t\t\t\t\n",
+		"standard" : "★提供相关工作资料复印件 \n",
+		"score" : 1.0
+	},
+	{
+		"index" : 6,
+		"categoryName" : "测试分类6",
+		"itemName" : "组织保密检查检测",
+		"content" : "落实党的二十大新闻宣传、信息公开保密管理\t\t\t\t\t\n",
+		"standard" : "★提供相关工作资料复印件 \n",
+		"score" : 2.0
+	},
+	{
+		"index" : 7,
+		"categoryName" : "测试分类7",
+		"itemName" : "制定企业秘密事项目录",
+		"content" : "正式印发企业秘密事项目录并及时更新\t\t\t\t\t\n",
+		"standard" : "★提供印发通知和目录复印件 \n",
+		"score" : 2.0
+	},
+	{
+		"index" : 7,
+		"categoryName" : "测试分类7",
+		"itemName" : "开展企业秘密定密工作",
+		"content" : "按照程序开展企业秘密定密工作\t\t\t\t\t\n",
+		"standard" : "★提供当年各类企业秘密审批表、定密文件首页各一份复印件 \n",
+		"score" : 2.0
+	},
+	{
+		"index" : 7,
+		"categoryName" : "测试分类7",
+		"itemName" : "加强开源信息管理",
+		"content" : "组织开展加强国家经济数据、开源信息安全保密工作，明确相关管理要求等\t\t\t\t\t\n",
+		"standard" : "★提供印发的通知或会议部署材料或检查材料等复印件 \n",
+		"score" : 3.0
+	},
+	{
+		"index" : 7,
+		"categoryName" : "测试分类7",
+		"itemName" : "对企业秘密涉密人员进行有效管理",
+		"content" : "与企业秘密涉密人员签订保密协议\t\t\t\t\t\n",
+		"standard" : "★提供相关合同、协议复印件 \n",
+		"score" : 2.0
+	},
+	{
+		"index" : 7,
+		"categoryName" : "测试分类7",
+		"itemName" : "对企业秘密涉密人员进行有效管理",
+		"content" : "本年度组织过测试分类7宣教培训\t\t\t\t\t\n",
+		"standard" : "★提供培训班通知复印件 \n",
+		"score" : 1.0
+	},
+	{
+		"index" : 8,
+		"categoryName" : "测试分类8",
+		"itemName" : "加分项",
+		"content" : "国家安全和保密工作获得省部级及以上表彰奖励（每项）\t\t\t\t\t\n",
+		"standard" : "★提供相关说明\n",
+		"score" : 5.0
+	},
+	{
+		"index" : 8,
+		"categoryName" : "测试分类8",
+		"itemName" : "加分项",
+		"content" : "承担课题研究、示范项目、重要文稿起草、保密检查、组织会议活动、分组协作等工作（每项）\t\t\t\t\t\n",
+		"standard" : "★提供相关说明\n",
+		"score" : 1.0
+	},
+	{
+		"index" : 8,
+		"categoryName" : "测试分类8",
+		"itemName" : "加分项",
+		"content" : "对安全保密工作提出有建设性、可操作性意见建议被采纳（每项）\t\t\t\t\t\n",
+		"standard" : "★提供相关说明\n",
+		"score" : 0.5
+	},
+	{
+		"index" : 8,
+		"categoryName" : "测试分类8",
+		"itemName" : "测试分类9",
+		"content" : "本年度内发生重大失泄密案件\t\t\t\t\t\n",
+		"standard" : "一票否决",
+		"score" : 0.0
+	},
+	{
+		"index" : 8,
+		"categoryName" : "测试分类8",
+		"itemName" : "测试分类9",
+		"content" : "本年度内发生一般失泄密案件（每项）\t\t\t\t\t\n",
+		"standard" : " ",
+		"score" : -20.0
+	},
+	{
+		"index" : 8,
+		"categoryName" : "测试分类8",
+		"itemName" : "测试分类9",
+		"content" : "本年度内发生保密失泄密风险隐患（每项）\t\t\t\t\t\n",
+		"standard" : " ",
+		"score" : -5.0
+	},
+	{
+		"index" : 8,
+		"categoryName" : "测试分类8",
+		"itemName" : "测试分类9",
+		"content" : "重点工作未完成（每项）\t\t\t\t\t\n",
+		"standard" : " ",
+		"score" : -2.0
+	}
+]
