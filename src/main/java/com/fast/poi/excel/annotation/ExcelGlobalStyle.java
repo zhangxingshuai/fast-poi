@@ -38,6 +38,13 @@ public @interface ExcelGlobalStyle {
     /** 背景色，默认白色 */
     IndexedColors bgColor() default IndexedColors.WHITE;
 
+    /** 标题背景色，默认白色 */
+    IndexedColors titleBgColor() default IndexedColors.WHITE;
+
+
     /** 行高，默认20 */
     float rowHeight() default 20;
+
+    /** 是否冻结标题行，默认不冻结 */
+    boolean freezeTitle() default false;
 }

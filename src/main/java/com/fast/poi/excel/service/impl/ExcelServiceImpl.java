@@ -13,10 +13,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.ss.util.CellRangeAddress;
 import org.apache.poi.ss.util.CellRangeAddressList;
-import org.apache.poi.xssf.usermodel.XSSFDataValidationConstraint;
-import org.apache.poi.xssf.usermodel.XSSFDataValidationHelper;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.apache.poi.xssf.usermodel.*;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -157,7 +154,9 @@ public class ExcelServiceImpl implements IExcelService {
             globalStyle.setFontName(annotation.fontName());
             globalStyle.setBold(annotation.bold());
             globalStyle.setBgColor(annotation.bgColor());
+            globalStyle.setTitleBgColor(annotation.titleBgColor());
             globalStyle.setRowHieght(annotation.rowHeight());
+            globalStyle.setFreezeTitle(annotation.freezeTitle());
             ExportContext.addBaseStyle(globalStyle);
         }
     }
@@ -262,7 +261,6 @@ public class ExcelServiceImpl implements IExcelService {
     private void createDataRow(Sheet sheet, List<Object> dataList) {
         for (int i = 0; i < dataList.size(); i++) {
             Row row = sheet.createRow(i+ExportContext.getStartRowNum());
-            row.setHeightInPoints(40);
             ExportContext.setCurrentData(dataList.get(i));
             // 创建数据列
             List<ExportField> fieldList = ExportContext.getExportFields();
@@ -273,6 +271,12 @@ public class ExcelServiceImpl implements IExcelService {
                 ExcelUtil.setCellValue(cell,dataList.get(i),exportField);
                 // 设置单元格样式
                 setStyle(cell, exportField,ExportContext.getBaseStyle());
+            }
+            // 设置最大行高
+            GlobalStyle globalStyle = ExportContext.getGlobalStyle();
+            if (globalStyle != null) {
+                Float rowHieght = globalStyle.getRowHieght();
+                row.setHeightInPoints(rowHieght);
             }
         }
 
@@ -300,16 +304,16 @@ public class ExcelServiceImpl implements IExcelService {
             if (field.isAnnotationPresent(ExcelField.class)) {
                 ExcelField annotation = field.getAnnotation(ExcelField.class);
                 if (StringUtils.isNotEmpty(annotation.mainTitle())) { // 主标题不为空
-                   if (mainTitles.size() == 0) {
-                       mainTitles.add(new MainTitle(annotation.mainTitle(), i, i));
-                   } else {
-                       MainTitle mainTitle = mainTitles.get(mainTitles.size()-1);
-                       if (mainTitle.getTitle().equals(annotation.mainTitle())) {
-                           mainTitle.setEndCellIndex(i);
-                       } else {
-                           mainTitles.add(new MainTitle(annotation.mainTitle(), i, i));
-                       }
-                   }
+                    if (mainTitles.size() == 0) {
+                        mainTitles.add(new MainTitle(annotation.mainTitle(), i, i));
+                    } else {
+                        MainTitle mainTitle = mainTitles.get(mainTitles.size()-1);
+                        if (mainTitle.getTitle().equals(annotation.mainTitle())) {
+                            mainTitle.setEndCellIndex(index);
+                        } else {
+                            mainTitles.add(new MainTitle(annotation.mainTitle(), index, index));
+                        }
+                    }
                 }
                 titles.add(annotation.title());
                 // 构建导出字段
@@ -341,6 +345,11 @@ public class ExcelServiceImpl implements IExcelService {
             // 设置标题样式
             setTitleStyle(cell);
         }
+        // 设置标题行冻结
+        GlobalStyle globalStyle = ExportContext.getGlobalStyle();
+        if (globalStyle != null) {
+            ExportContext.getWorkbook().getSheetAt(0).createFreezePane(0,mainTitles.size()>0?2:1,0,mainTitles.size()>0?2:1);
+        }
 
     }
 
@@ -352,9 +361,11 @@ public class ExcelServiceImpl implements IExcelService {
         style.setWrapText(true);
         // 设置对齐方式
         ExcelUtil.setAlign(style,exportField.getAlign());
-        // todo 设置单元格背景颜色后，会导致excel默认边框消失，暂时先不设置背景色
-        style.setFillPattern(FillPatternType.SOLID_FOREGROUND);
-        style.setFillForegroundColor(exportField.getBgColor().getIndex());
+        // 执行以下代码设置单元格背景颜色后，会导致excel默认边框消失。当单元格背景色非默认值（白色）时，再执行以下代码
+        if (!exportField.getBgColor().equals(IndexedColors.WHITE)) {
+            style.setFillPattern(FillPatternType.SOLID_FOREGROUND);
+            style.setFillForegroundColor(exportField.getBgColor().getIndex());
+        }
         cell.setCellStyle(style);
         // 设置日期格式
         if (StringUtils.isNotEmpty(exportField.getFormat())) {
@@ -409,10 +420,16 @@ public class ExcelServiceImpl implements IExcelService {
         // 自动换行
         style.setWrapText(true);
         // 边框
-        List<BaseStyle> styles = ExportContext.getBaseStyle();
-        for (BaseStyle baseStyle : styles) {
-            if (baseStyle instanceof GlobalStyle) {
-                ExcelUtil.setBorderStyle(style,(GlobalStyle)baseStyle);
+        GlobalStyle globalStyle = ExportContext.getGlobalStyle();
+        if (globalStyle != null) {
+            // 标题设置单元格边框
+            ExcelUtil.setBorderStyle(style,globalStyle);
+            // 设置标题背景色
+            if (!IndexedColors.WHITE.equals(globalStyle.getTitleBgColor())) {
+                XSSFColor color = new XSSFColor();
+                color.setIndexed(globalStyle.titleBgColor.getIndex());
+                style.setFillForegroundColor(color.getIndex());
+                style.setFillPattern(FillPatternType.SOLID_FOREGROUND);
             }
         }
         cell.setCellStyle(style);

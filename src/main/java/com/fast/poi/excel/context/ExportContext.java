@@ -3,10 +3,12 @@ package com.fast.poi.excel.context;
 import com.fast.poi.excel.bean.BaseStyle;
 import com.fast.poi.excel.bean.ExcelContext;
 import com.fast.poi.excel.bean.ExportField;
+import com.fast.poi.excel.bean.GlobalStyle;
 import org.apache.poi.ss.usermodel.Workbook;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 /**
  * excel导出上下文
@@ -72,6 +74,14 @@ public class ExportContext {
         return  excelContext == null ? null : excelContext.getStyleList();
     }
 
+    /** 获取全局样式 */
+    public static GlobalStyle getGlobalStyle() {
+        Optional<BaseStyle> optional = getBaseStyle().stream().filter(s -> s instanceof GlobalStyle).findFirst();
+        if (optional.isPresent()) {
+            return (GlobalStyle) optional.get();
+        }
+        return null;
+    }
 
     /** 设置工作簿对象 */
     public static void setWorkbook(Workbook workbook) {

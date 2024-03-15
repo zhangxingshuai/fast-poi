@@ -56,7 +56,6 @@ public class LoopServiceImpl implements ILoopService {
 
             }
         }
-        System.out.println(loopRun.size());
     }
 
     private String resolveLoopText(String loopText) {
